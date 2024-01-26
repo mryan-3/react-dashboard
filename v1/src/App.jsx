@@ -1,3 +1,4 @@
+import LeftColumn from './components/LeftColumn'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 
@@ -10,7 +11,7 @@ function App() {
         <Navbar />
       <div className='grid md:grid-cols-3 grid-cols-1 w-full text-gray-300'>
         <div className='col-span-2'>
-            Left column
+            <LeftColumn />
         </div>
         <div className='w-full'>
             Right column
